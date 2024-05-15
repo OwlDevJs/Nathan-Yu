@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nathan Yu</title>
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="bigger-cursor"></div>
+    <nav class="navbar" id="navbar">
+      <h3 class="nav-logo">Nathan Yu</h3>
+      <ul class="nav-list">
+        <li class="nav-item">Home</li>
+        <li class="nav-item" onclick="scrollToServices()">Services</li>
+        <li class="nav-item" onclick="scrollIntoContact()">Contact</li>
+      </ul>
+    </nav>
+    <main class="hero">
+      <div class="hero-left">
+        <h1 class="hero-title">I’m a professional Photographer</h1>
+        <p class="hero-paragraph">
+          I am a passionate and dedicated photographer with a keen eye for
+          capturing the beauty in the world around me.
+        </p>
+        <button class="hero-btn">Contact Me</button>
+      </div>
+      <div class="hero-right">
+        <h1 class="hero-subtitle">Hey, There. I’m Nathan Yu.</h1>
+        <div class="hero-illu">
+          <img class="hero-img" src="./assets/Lens.png" alt="" />
+        </div>
+      </div>
+    </main>
+    <main class="services">
+      <h1 class="services-title">My services</h1>
+      <div class="services-info">
+        <p class="services-paragraph">
+          I offer a range of photography services to suit your needs. Whether
+          you’re looking for a professional headshot, a family portrait, or
+          coverage of a special event, I’ve got you covered.<br />
+          I’m passionate about capturing<br />
+          the beauty in the world around me, and I’d love to work with you to
+          create stunning images that you’ll treasure forever.
+        </p>
+        <div class="services-illu">
+          <img src="./assets/nathan.jpg" alt="" />
+        </div>
+      </div>
+    </main>
+    <main class="contact">
+      <h1 class="contact-title">Contact Me</h1>
+      <div class="contact-info">
+        <p class="contact-paragraph">
+          If you’re interested in working with me, please get in touch. I’d love
+          to hear from you. You can reach me by phone, email, or by filling out
+          the contact form below. I look forward to hearing from you!
+        </p>
+        <form class="contact-form">
+          <input type="text" class="contact-input" placeholder="Your Name" />
+          <input type="email" class="contact-input" placeholder="Your Email" />
+          <textarea class="contact-input" placeholder="Your Message"></textarea>
+          <button class="contact-btn">Send</button>
+        </form>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
